@@ -10,7 +10,6 @@ public class GreetingController {
 
     @RequestMapping(value= "/alertNotification", method = RequestMethod.POST)
     public void alertNotification(@RequestBody String body) {
-        Gson gson  = new Gson();
         System.out.println(body);
     }
 }
